@@ -79,7 +79,7 @@ session timeout 0
 enable
 configure
 message-spool message-vpn default
-create queue TransactionMgr
+create queue Q/Test
 access-type exclusive
 max-spool-usage 1500
 permission all consume
