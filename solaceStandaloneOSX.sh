@@ -41,7 +41,7 @@ docker run \
 --publish 8741:8741 \
 --publish 8301:8301/udp \
 --publish 8302:8302/udp \
---publish 8081:8080 \
+--publish 8080:8080 \
 --publish 1943:1943 \
 --publish 55443:55443 \
 --publish 55556:55556 \
