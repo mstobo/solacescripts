@@ -7,7 +7,7 @@ sudo useradd -u 1001 -g 501 sysadmin
 passwd sysadmin
 usermod -aG sudo sysadmin
 
-#you can remove lines 11-22 if this is a fresh environment; otherwise remove the existing instance and externalize volumes
+#you can remove lines 11-22 if this is a fresh environment; otherwise, remove the existing instance and externalized volumes to prevent any conflicts from previous runs
 docker ps -a
 docker stop solaceStandaloneOSX
 docker rm -f solaceStandaloneOSX
